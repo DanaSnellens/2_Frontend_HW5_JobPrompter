@@ -7,17 +7,17 @@
 Een grote corporate heeft jou gevraagd jou een Job Prompter te maken, gezien ze zoveel vragen krijgen over de verschillende
 functies binnen hun bedrijf. _Automatiseren kun je leren!_ Om de informatie zo gericht mogelijk weer te geven, zul je
 input van de gebruiker vragen om zo informatie over de juiste afdeling en functie te verschaffen. Dit doe je op basis
-van de grote dataverzameling aan bedrijfsinformatie genaamd `departments` (te vinden in `main.js`).
+van de grote dataverzameling aan bedrijfsinformatie genaamd `departments` (te vinden in `main.mjs`).
 
 ![screen-gif-prompter.gif](assets/screen-gif-prompter.gif)
 
 ## Voor je begint
 
 1. Koppel het script aan de HTML-pagina door onderaan de body de volgende tag te
-   plaatsen: `<script src="scripts/main.js"></script>`. Je bekijkt de console dan ook in de **browser**, niet in de terminal.
+   plaatsen: `<script src="scripts/main.mjs"></script>`. Je bekijkt de console dan ook in de **browser**, niet in de terminal.
 2. Voel je vrij om de dataverzameling in een los bestandje te plaatsen. Houdt er wel rekening mee dat je ieder
    afzonderlijk `.js` bestand moet koppelen via een `<script>`-tag in de HTML. Zolang je dit extra bestand aan jouw
-   HTML-document linkt vóór `main.js`, kun je `departments` gewoon aanspreken.
+   HTML-document linkt vóór `main.mjs`, kun je `departments` gewoon aanspreken.
 3. Vergeet niet dat je na iedere wijziging eerst de browser even moet refreshen.
 
 ## Opdracht
